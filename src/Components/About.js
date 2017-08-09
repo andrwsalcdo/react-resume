@@ -6,7 +6,7 @@ const About = (props) => (
               <div className="three columns">
                   <img className="profile-pic" src={props.data.image} alt="" />
               </div>
-
+              
               <div className="nine columns main-col">
                   <h2>About Me</h2>
                   <p> {props.data.bio} </p>
