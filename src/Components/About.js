@@ -1,47 +1,37 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class About extends Component {
-  render() {
-    return (
+const About = (props) => (
       <section id="about">
           <div className="row">
               <div className="three columns">
-                  <img className="profile-pic"  src="images/profilepic.jpg" alt="" />
+                  <img className="profile-pic" src={props.data.image} alt="" />
               </div>
 
               <div className="nine columns main-col">
                   <h2>About Me</h2>
-                  <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-                  eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
-                  voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
-                  voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
-                  sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
-                  Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.
-                  </p>
+                  <p> {props.data.bio} </p>
                   <div className="row">
                       <div className="columns contact-details">
                           <h2>Contact Details</h2>
                           <p className="address">
-                            <span>Jane Doe</span><br />
-                            <span>1600 Amphitheatre Parkway<br /> 
-                                  Mountain View, CA 94043 US
+                            <span>{props.data.name}</span><br />
+                            <span>{props.data.address.street}<br /> 
+                            {props.data.address.city}, {props.data.address.state} {props.data.address.zip}
                             </span><br />
-                            <span>(123)456-7890</span><br />
-                            <span>anyone@website.com</span>
+                            <span>{props.data.phone}</span><br />
+                            <span>{props.data.email}</span>
                           </p>
                       </div>
 
                       <div className="columns download">
                           <p>
-                            <a href="#" className="button"><i className="fa fa-download"></i>Download Resume</a>
+                            <a href={props.data.resumedownload} className="button"><i className="fa fa-download"></i>Download Resume</a>
                           </p>
                       </div>
                   </div> 
               </div> 
           </div>
-      </section> 
-    );
-  }
-}
+      </section>
+)
 
 export default About;
