@@ -1,8 +1,6 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class Contact extends Component {
-  render() {
-    return (
+const Contact = (props) => (
           <section id="contact">
                 <div className="row section-head">
                     <div className="two columns header-col">
@@ -54,17 +52,15 @@ class Contact extends Component {
                       <div className="widget widget_contact">
                           <h4>Address and Phone</h4>
                           <p className="address">
-                            Jonathan Doe<br />
-                            1600 Amphitheatre Parkway <br />
-                            Mountain View, CA 94043 US<br />
-                            <span>(123) 456-7890</span>
+                            {props.data.name}<br />
+                            {props.data.address.street} <br />
+                            {props.data.address.city}, {props.data.address.state} {props.data.address.zip}<br />
+                            <span>{props.data.phone}</span>
                           </p>
                         </div>
                     </aside>
               </div>
           </section> 
-    );
-  }
-}
+)
 
 export default Contact;
