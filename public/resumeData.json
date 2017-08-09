@@ -114,7 +114,7 @@
             {
                 "title": "Green Goblin",
                 "description": "Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.",
-                "category": "Sony",
+                "category": "Spiderman",
                 "tags": "Villians",
                 "image": "gg-sm",
                 "url": "http://i.imgur.com/ux4ZyIS.jpg",
@@ -123,7 +123,7 @@
             {
                 "title": "Doc Ock",
                 "description": "Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.",
-                "category": "Sony",
+                "category": "Spiderman 2",
                 "tags": "Villians",
                 "image": "doc-ock-sm2",
                 "url": "http://i.imgur.com/YMGu7i2.jpg",
@@ -132,7 +132,7 @@
             {
                 "title": "Venom",
                 "description": "Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.",
-                "category": "Sony",
+                "category": "Spiderman 3",
                 "tags": "Villians",
                 "image": "venom-sm3",
                 "url": "http://i.imgur.com/1F1iIRq.jpg",
@@ -141,7 +141,7 @@
             {
                 "title": "Sandman",
                 "description": "Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.",
-                "category": "Sony",
+                "category": "Spiderman 3",
                 "tags": "Sub-Villians",
                 "image": "sandman-sm3",
                 "url": "http://i.imgur.com/gaRqXIm.jpg",
@@ -150,7 +150,7 @@
             {
                 "title": "The Lizard",
                 "description": "Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.",
-                "category": "Sony",
+                "category": "The Amazing Spider-Man",
                 "tags": "Villians",
                 "image": "lizard-amazingsm",
                 "url": "http://i.imgur.com/UXxjYfM.jpg",
@@ -159,16 +159,16 @@
             {
                 "title": "Electro",
                 "description": "Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.",
-                "category": "Sony",
+                "category": "The Amazing Spider-Man 2",
                 "tags": "Villians",
                 "image": "electro-amazingsm2",
-                "url": "http://i.imgur.com/Eqrgznn.jpg",
+                "url": "http://i.imgur.com/5edKt1b.jpg",
                 "modal": "#modal-06"
             },
             {
                 "title": "Shocker",
                 "description": "Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.",
-                "category": "Marvel",
+                "category": "Spider-Man: Homecoming",
                 "tags": "Sub-Villians",
                 "image": "shocker-homecoming",
                 "url": "http://i.imgur.com/YTfiuaL.jpg",
@@ -177,7 +177,7 @@
             {
                 "title": "Vulture",
                 "description": "Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.",
-                "category": "Marvel",
+                "category": "Spider-Man: Homecoming",
                 "tags": "Villians",
                 "image": "vulture-homecoming",
                 "url": "http://i.imgur.com/oWPLoBf.jpg",
