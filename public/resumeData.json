@@ -1,0 +1,200 @@
+{
+    "main": {
+        "name": "Peter Parker",
+        "occupation": "Student, Programmer, and Superhero",
+        "description": " I am a high school student working at the Daily Bugle as a programmer for their website. I also am your friendly neighborhood Spider-Man.",
+        "image": "http://imgur.com/hfR1JIP",
+        "bio": "Pellentesque in ipsum id orci porta dapibus. Nulla porttitor accumsan tincidunt. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.",
+        "email": "peter_parker2017@gmail.com",
+        "phone": "555-555-5555",
+        "address": {
+            "street": "94-50 159th St",
+            "city": "New York City",
+            "state": "NY",
+            "zip": "11451"
+        },
+        "website": "http://marvel.com/",
+        "resumedownload": "https://en.wikipedia.org/wiki/Spider-Man",
+        "social": [
+            {
+                "name": "facebook",
+                "url": "http://facebook.com",
+                "className": "fa fa-facebook"            
+            },
+            {
+                "name": "twitter",
+                "url": "http://twitter.com",
+                "className": "fa fa-twitter"   
+            },
+            {
+                "name": "google-plus",
+                "url": "http://googleplus.com",
+                "className": "fa fa-google-plus"  
+            },
+            {
+                "name": "linkedin",
+                "url": "http://linkedin.com",
+                "className": "fa fa-linkedin"  
+            },
+            {
+                "name": "instagram",
+                "url": "http://instagram.com",
+                "className": "fa fa-instagram"  
+            },
+            {
+                "name": "github",
+                "url": "http://github.com",
+                "className": "fa fa-github"  
+            },
+            {
+                "name": "skype",
+                "url": "http://skype.com",
+                "className": "fa fa-skype"  
+            }
+        ]     
+    },
+    "resume":{
+        "education":[
+            {
+                "school": "High School",
+                "degree": "Focus on Science",
+                "graduated": "July 2019",
+                "description": "Watch me in my sequel to Spider-Man: Homecoming"
+            },
+            {
+                "school": "School of SuperHeroes",
+                "degree": "street level crime",
+                "graduated": "May 2025",
+                "description": "I will be learning from the Avengers and my own experiences to be a street level hero"
+            }
+        ],
+        "work":[
+            {
+                "company": "Avengers",
+                "title": "Spider-Man",
+                "years": "2016 - Present",
+                "description": "Teaming up with all the Avengers on their crazy adventures as Spider-Man"
+            },
+            {
+                "company": "Daily Bugle",
+                "title": "programmer",
+                "years": "2016 - Present",
+                "description": "Assist with all programming and maintence to Daily Bugle's news website and apps"
+            }
+        ],
+        "skills":[
+            {
+                "name": "SuperHeroing",
+                "level": "70%"
+            },
+            {
+                "name": "Science",
+                "level": "90%"
+            },
+            {
+                "name": "Jokes",
+                "level": "40%"
+            },
+            {
+                "name": "CSS",
+                "level": "60%"
+            },
+            {
+                "name": "HTML5",
+                "level": "80%"
+            },
+            {
+                "name": "JavaScript",
+                "level": "50%"
+            }
+        ]
+    },
+    "portfolio":{
+        "projects": [
+            {
+                "title": "Green Goblin",
+                "description": "Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.",
+                "category": "Sony",
+                "tags": "Villians",
+                "image": "gg-sm",
+                "url": "http://i.imgur.com/ux4ZyIS.jpg",
+                "modal": "#modal-01"
+            },
+            {
+                "title": "Doc Ock",
+                "description": "Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.",
+                "category": "Sony",
+                "tags": "Villians",
+                "image": "doc-ock-sm2",
+                "url": "http://i.imgur.com/YMGu7i2.jpg",
+                "modal": "#modal-02"
+            },
+            {
+                "title": "Venom",
+                "description": "Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.",
+                "category": "Sony",
+                "tags": "Villians",
+                "image": "venom-sm3",
+                "url": "http://i.imgur.com/1F1iIRq.jpg",
+                "modal": "#modal-03"
+            },
+            {
+                "title": "Sandman",
+                "description": "Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.",
+                "category": "Sony",
+                "tags": "Sub-Villians",
+                "image": "sandman-sm3",
+                "url": "http://i.imgur.com/gaRqXIm.jpg",
+                "modal": "#modal-04"
+            },
+            {
+                "title": "The Lizard",
+                "description": "Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.",
+                "category": "Sony",
+                "tags": "Villians",
+                "image": "lizard-amazingsm",
+                "url": "http://i.imgur.com/UXxjYfM.jpg",
+                "modal": "#modal-05"
+            },
+            {
+                "title": "Electro",
+                "description": "Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.",
+                "category": "Sony",
+                "tags": "Villians",
+                "image": "electro-amazingsm2",
+                "url": "http://i.imgur.com/Eqrgznn.jpg",
+                "modal": "#modal-06"
+            },
+            {
+                "title": "Shocker",
+                "description": "Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.",
+                "category": "Marvel",
+                "tags": "Sub-Villians",
+                "image": "shocker-homecoming",
+                "url": "http://i.imgur.com/YTfiuaL.jpg",
+                "modal": "#modal-07"
+            },
+            {
+                "title": "Vulture",
+                "description": "Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.",
+                "category": "Marvel",
+                "tags": "Villians",
+                "image": "vulture-homecoming",
+                "url": "http://i.imgur.com/oWPLoBf.jpg",
+                "modal": "#modal-08"
+            }
+        ]
+    },
+    "testimonials":{
+        "testimonials":[
+            {
+                "text": "They're crap. Crap, crap, megacrap. I'll give you two hundred bucks for all of 'em.",
+                "user": "J. Jonah Jameson"
+            },
+            {
+                "text": "You just don't do anything I would do... and definitely don't do anything I wouldn't do. There's a little gray area in there and that's where you operate.",
+                "user": "Tony Stark"
+            }
+        ]
+    }
+}

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import axios from 'axios'
 
 import Header from './Components/Header'
 import About from './Components/About'
@@ -11,18 +12,45 @@ import Footer from './Components/Footer'
 
 
 class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      resumeData: null,
+      dataLoaded: false
+    }
+  }
+
+  getResumeData() {
+    axios.get('http://localhost:3000/resumeData.json')
+      .then(res => {
+        this.setState({ resumeData: res.data, dataLoaded: true });
+      }) 
+      .catch(err => console.log('error:', err));
+  }
+  
+  componentDidMount() {
+    this.getResumeData(); 
+  }
+
   render() {
-    return (
-      <div>
-          <Header />
-          <About />
-          <Resume />
-          <Portfolio />
-          <Testimonials />
-          <Contact />
-          <Footer />
-      </div>
-    );
+    if(this.state.dataLoaded === false) {
+      return (
+        <h1>loading</h1>
+      );
+    }
+    else {
+      return (
+        <div>
+          <Header data={this.state.resumeData.main} />
+           <About />
+           <Resume />
+           <Portfolio />
+           <Testimonials />
+           <Contact />
+           <Footer />
+        </div> 
+      )
+    }
   }
 }
 

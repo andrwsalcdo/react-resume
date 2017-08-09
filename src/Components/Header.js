@@ -1,11 +1,10 @@
 import React from 'react';
 
-const Header = () => (
-      <header id="home">
+const Header = (props) => (
+      <header id="home">  
           <nav id="nav-wrap">
                   <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
                   <a className="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
-
                   <ul id="nav" className="nav">
                       <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
                       <li><a className="smoothscroll" href="#about">About</a></li>
@@ -18,19 +17,17 @@ const Header = () => (
 
           <div className="row banner">
             <div className="banner-text">
-                <h1 className="responsive-headline">I'm Jane Doe.</h1>
-                <h3>I'm an Earth based <span>graphic designer</span>, <span>illustrator</span> and <span>webdesigner</span> creating awesome and
-                effective visual identities for companies of all sizes around the globe. Let's <a className="smoothscroll" href="#about">start scrolling </a>
-                and learn more <a className="smoothscroll" href="#about">about me</a>.</h3>
+                <h1 className="responsive-headline">I'm {props.data.name}.</h1> 
+                <h3>I'm a {props.data.address.city} based <span> {props.data.occupation}</span>.
+                 {props.data.description} </h3>
                 <hr />
-                <ul className="social">
-                  <li><a href="#"><i className="fa fa-facebook"></i></a></li>
-                  <li><a href="#"><i className="fa fa-twitter"></i></a></li>
-                  <li><a href="#"><i className="fa fa-google-plus"></i></a></li>
-                  <li><a href="#"><i className="fa fa-linkedin"></i></a></li>
-                  <li><a href="#"><i className="fa fa-instagram"></i></a></li>
-                  <li><a href="#"><i className="fa fa-dribbble"></i></a></li>
-                  <li><a href="#"><i className="fa fa-skype"></i></a></li>
+               <ul className="social"> 
+                  {props.data.social.map(network => 
+                      <li key={network.name}>
+                        <a href={network.url}>
+                          <i className={network.className}></i>
+                        </a>
+                      </li>)}
                 </ul>
             </div>
           </div>
@@ -38,7 +35,7 @@ const Header = () => (
           <p className="scrolldown">
             <a className="smoothscroll" href="#about"><i className="icon-down-circle"></i></a>
           </p>
-      </header>
+        </header>
 )
 
 export default Header;
